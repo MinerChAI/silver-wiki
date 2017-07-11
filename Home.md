@@ -1,4 +1,4 @@
-# [bronze](../Bronze)
+# [bronze](Bronze)
 
 ## Modules
-* [OS](../OS)
+* [OS](OS)
