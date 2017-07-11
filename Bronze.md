@@ -1,0 +1,29 @@
+# bronze
+
+## Subcommands
+### `init`
+This subcommand outputs shell script to be evaluated by your shell on startup. Bronze tries to detect your shell with the `SHELL` environment variable, but the `SHELL` environment variable is not necessarily the currently used shell, but the default shell for the user, so it's recommended to explicitly set the `SHELL` variable.
+
+### `print`
+This subcommand shouldn't be called by the user, but by the code `init` generates. It outputs the prompt.
+
+## Environment variables
+### `BRONZE`
+This variable is an array of every module, in order, you want in your prompt. The elements in this array have three fields separated by colons. The first field is the module name, the second is the background color of the segment, and the third is the foreground color.
+
+For example, if you wanted the `dir` module with black text on a blue background, the element would be `dir:blue:black`.
+
+## Example configurations
+`~/.bashrc`/`~/.zshrc`:
+```sh
+export SHELL=$0
+BRONZE=(status:black:white shortdir:blue:black git:green:black cmdtime:magenta:black)
+eval "$(bronze init)"
+```
+
+`~/.config/fish/config.fish`:
+```fish
+set -x SHELL fish
+set BRONZE status:black:white shortdir:blue:black git:green:black cmdtime:magenta:black
+eval (bronze init)
+```
