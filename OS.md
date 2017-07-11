@@ -13,4 +13,4 @@ The recognized operating systems are:
 * SUSE
 * openSUSE
 * Ubuntu
-* ElementaryOS
+* elementary OS
