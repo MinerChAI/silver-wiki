@@ -4,4 +4,4 @@
 * [OS](OS)
 * [Status](Status)
 * [Directory](Directory)
-* [Short Directory](Short Directory)
+* [Short Directory](Short-Directory)
