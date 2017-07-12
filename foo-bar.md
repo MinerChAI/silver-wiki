@@ -1,0 +1,1 @@
+test to see how spaces in wiki pages are handled
