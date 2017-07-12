@@ -11,6 +11,15 @@ This variable is an array of every module, in order, you want in your prompt. Th
 
 For example, if you wanted the `dir` module with black text on a blue background, the element would be `dir:blue:black`.
 
+### `BRONZE_SEPARATOR`
+This variable is the separator between segments. The default value is `\ue0b0`.
+
+Example with `\ue0b4`:<br/>
+![](e0b4.png)
+
+Example with `\ue0bc`:<br/>
+![](e0bc.png)
+
 ### `BRONZE_ICONS`
 This variable is a preset of every icon. Valid values are `nerd`, `unicode`, or `ascii`. It defaults to `nerd`. For more information, see [Icons](Icons).
 
