@@ -2,4 +2,5 @@
 
 ## Modules
 * [OS](OS)
+* [Status](Status)
 * [Directory](Directory)
