@@ -1,11 +1,11 @@
 # `status`
 ![](status.png)
 
-| Icon                        | Description         |
-| :-------------------------: | ------------------- |
-| ![lightning](lightning.png) | logged in as root   |
-| ![lock](lock.png)           | read only directory |
-| ![exclamation](exclam.png)  | last command failed |
-| ![gear](gear.png)           | background job      |
+| Icon Name | Description         | Nerd Fonts         | Unicode   | ASCII |
+| --------- | ------------------- | :----------------: | :-------: | :---: |
+| root      | logged in as root   | ![](lightning.png) | &#x26a1;  | #     |
+| readonly  | read only directory | ![](lock.png)      | &#x1f512; | @     |
+| failed    | last command failed | ![](exclam.png)    | &#x2757;  | !     |
+| job       | background job      | ![](gear.png)      | &#x2699;  | &     |
 
 If no icons are relevant, the segment is not shown.
