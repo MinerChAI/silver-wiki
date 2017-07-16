@@ -20,6 +20,11 @@ Example with `\ue0b4`:<br/>
 Example with `\ue0bc`:<br/>
 ![](e0bc.png)
 
+### `BRONZE_THIN_SEPARATOR`
+This variable is the thin separator between segments of the same background color. The default value is `\ue0b1`.
+
+![](thin-separator.png)
+
 ### `BRONZE_ICONS`
 This variable is a preset of every icon. Valid values are `nerd`, `unicode`, or `ascii`. It defaults to `nerd`. For more information, see [Icons](Icons).
 
