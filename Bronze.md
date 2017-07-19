@@ -1,6 +1,6 @@
 ## Subcommands
 ### `init`
-This subcommand outputs shell script to be evaluated by your shell on startup. Bronze detects your shell with the `BRONZE_SHELL` environment variable.
+This subcommand outputs shell script to be evaluated by your shell on startup. Bronze detects your shell with the [`BRONZE_SHELL`](#bronze_shell) environment variable.
 
 ### `print`
 This subcommand shouldn't be called by the user, but by the code `init` generates. It outputs the prompt.
