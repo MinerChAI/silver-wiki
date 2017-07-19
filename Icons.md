@@ -1,6 +1,6 @@
 Every icon is completely customizable through environment variables.
 
-There are three presets for icons:
+There are three presets for icons (which can be set through [`BRONZE_ICONS`](Bronze#bronze_icons)):
 * `nerd` uses icons from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 * `unicode` uses Unicode (mostly emojis)
 * `ascii` uses only ASCII
