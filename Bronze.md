@@ -12,7 +12,7 @@ This variable is an array of every module, in order, you want in your prompt. Th
 For example, if you wanted the `dir` module with black text on a blue background, the element would be `dir:blue:black`.
 
 ### `BRONZE_SHELL`
-This variable tells bronze what shell you are using. The supported shells are Bash, Zsh, and fish.
+This variable tells bronze what shell you are using. The supported shells are `bash`, `zsh`, and `fish`.
 
 ### `BRONZE_SEPARATOR`
 This variable is the separator between segments. The default value is `\ue0b0`.
