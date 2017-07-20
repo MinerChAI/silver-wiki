@@ -4,6 +4,7 @@
 ## Modules
 * [OS](OS)
 * [Status](Status)
+* [Packages](Packages)
 * [Pacaur](Pacaur)
 * [User](User)
 * [Directory](Directory)
