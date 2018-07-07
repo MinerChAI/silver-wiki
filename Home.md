@@ -60,13 +60,13 @@ Every icon name can be found on the appropriate module wiki page.
 `~/.bashrc`/`~/.zshrc`:
 ```sh
 export BRONZE_SHELL=$0
-BRONZE=(status:black:white shortdir:blue:black git:green:black cmdtime:magenta:black)
+BRONZE=(status:black:white dir:blue:black git:green:black cmdtime:magenta:black)
 eval "$(bronze init)"
 ```
 
 `~/.config/fish/config.fish`:
 ```fish
 set -x BRONZE_SHELL fish
-set BRONZE status:black:white shortdir:blue:black git:green:black cmdtime:magenta:black
+set BRONZE status:black:white dir:blue:black git:green:black cmdtime:magenta:black
 eval (bronze init)
 ```
