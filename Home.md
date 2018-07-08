@@ -35,7 +35,6 @@ This variable is a preset of every icon. Valid values are `nerd`, `unicode`, or 
 * [OS](OS)
 * [Status](Status)
 * [Packages](Packages)
-* [Pacaur](Pacaur)
 * [User](User)
 * [Directory](Directory)
 * [Git](Git)
