@@ -42,6 +42,7 @@ This variable is a preset of every icon. Valid values are `nerd`, `unicode`, or 
 * [Command Time](Command-Time)
 * [Time](Time)
 * [Environment Variable](Environment-Variable)
+* [virtualenv](virtualenv)
 * [Plugin](Plugin)
 
 ## Icons
