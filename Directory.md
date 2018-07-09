@@ -8,7 +8,7 @@ This module displays the current working directory. If you are in your home dire
 This variable defines icon aliases for directories. For example, if you wanted to replace `~/go/src` with `\ue627`, the value would be `$HOME/go/src:\ue627`. Multiple aliases can be separated with colons.
 
 ### `SILVER_DIR_LENGTH`
-This variable defines the maximum amount of unicode characters that are allowed in the directory. The last directory is not affected.
+This variable defines the maximum amount of Unicode characters that are allowed in the directory. The last directory is not affected.
 
 Example with a value of `1`:<br/>
 ![](shortdir.png)

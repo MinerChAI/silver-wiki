@@ -1,7 +1,7 @@
 # `git`
 ![](git.png)
 
-This module displays information about the current git repository. If you are not in a git repository, it is not shown. If the current branch is dirty, the segment is yellow/orange (depending on your terminal color scheme).
+This module displays information about the current git repository. If you are not in a git repository, it is not shown. If the current branch is dirty, the segment is yellow/orange.
 
 | Icon Name | Description                                               | Nerd Fonts                  | Unicode   | ASCII |
 | --------- | --------------------------------------------------------- | :-------------------------: | :-------: | :---: |
