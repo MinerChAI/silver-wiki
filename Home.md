@@ -45,7 +45,7 @@ This variable is a preset of every icon. Valid values are `nerd`, `unicode`, or 
 ## Icons
 Every icon is completely customizable through environment variables.
 
-There are three presets for icons (which can be set through [`SILVER_ICONS`](Silver#silver_icons)):
+There are three presets for icons (which can be set through [`SILVER_ICONS`](#silver_icons)):
 * `nerd` uses icons from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 * `unicode` uses Unicode (mostly emojis)
 * `ascii` uses only ASCII
