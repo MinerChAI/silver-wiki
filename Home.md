@@ -6,6 +6,8 @@ This subcommand outputs shell script to be evaluated by your shell on startup. S
 This subcommand shouldn't be called by the user, but by the code `init` generates. It outputs the prompt.
 
 ## Environment variables
+Every following variable with the exception of `$SILVER` must be exported by the shell.
+
 ### `SILVER`
 This variable is an array of every module, in order, you want in your prompt. The elements in this array have three fields separated by colons. The first field is the module name, the second is the background color of the segment, and the third is the foreground color.
 
