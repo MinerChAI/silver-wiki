@@ -1,6 +1,7 @@
 # `status`
 ![](status.png)
 
+## Icons
 | Icon Name | Description         | Nerd Fonts         | Unicode   | ASCII |
 | --------- | ------------------- | :----------------: | :-------: | :---: |
 | root      | logged in as root   | ![](lightning.png) | &#x26a1;  | #     |

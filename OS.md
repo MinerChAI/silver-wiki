@@ -3,6 +3,7 @@
 
 This module displays an icon of the operating system. If the operating system is Linux, silver detects the distribution by reading the `/etc/os-release` file.
 
+## Icons
 | OS            | Nerd Fonts          | Unicode   |
 | ------------- | :-----------------: | :-------: |
 | macOS         | ![](darwin.png)     | &#x1f34e; |
