@@ -1,8 +1,9 @@
 # `git`
 ![](git.png)
 
-This module displays information about the current git repository. If you are not in a git repository, it is not shown. If the current branch is dirty, the segment is yellow/orange.
+This module displays information about the current git repository. If you are not in a git repository, it is not shown. If the current branch is dirty, the segment is yellow/orange by default. The dirty color can be changed by providing an extra argument.
 
+## Icons
 | Icon Name | Description                                               | Nerd Fonts                  | Unicode   | ASCII |
 | --------- | --------------------------------------------------------- | :-------------------------: | :-------: | :---: |
 | github    | remote points to [GitHub](https://github.com/)            | ![github](github.png)       |           |       |
@@ -14,3 +15,9 @@ This module displays information about the current git repository. If you are no
 | behind    | you are a commit behind upstream (requires a `git fetch`) | ![behind](behind.png)       | &#x2193;  | <     |
 | modified  | the branch has been modified                              | ![circle](circle.png)       | &#x25cf;  | *     |
 | staged    | a file has been staged                                    | ![plus](plus.png)           | &#x271a;  | +     |
+
+## Example
+```sh
+# "yellow" is the dirty color
+SILVER+=(git:green:black:yellow)
+```
