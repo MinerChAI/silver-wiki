@@ -43,6 +43,7 @@ This variable is a preset of every icon. Valid values are `nerd`, `unicode`, or 
 * [Time](Time)
 * [Environment Variable](Environment-Variable)
 * [virtualenv](virtualenv)
+* [Conda](conda)
 
 ## Icons
 Every icon is completely customizable through environment variables.
