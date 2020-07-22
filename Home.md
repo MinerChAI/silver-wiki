@@ -62,12 +62,12 @@ Every icon name can be found on the appropriate module wiki page.
 ```sh
 export SILVER_SHELL=$0
 SILVER=(status:black:white dir:blue:black git:green:black cmdtime:magenta:black)
-eval "$(silver init)"
+source <(silver init)
 ```
 
 `~/.config/fish/config.fish`:
 ```fish
 set -x SILVER_SHELL fish
 set SILVER status:black:white dir:blue:black git:green:black cmdtime:magenta:black
-eval (silver init)
+silver init | source
 ```
